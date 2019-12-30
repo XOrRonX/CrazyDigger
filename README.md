@@ -1,6 +1,9 @@
 # CrazyDigger
 A clone of the game "CrazyDigger" 
 
+# Important
+### To use this project, please download ZIP file OrRon-CrazyDigger.zip. 
+
 ## Getting Started
 
 ### Prerequisites
