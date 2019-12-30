@@ -2,6 +2,14 @@
 A clone of the game "CrazyDigger" 
 
 
+Prerequisites
+In order to run the project you need:
+Visual Studio with Windows 10 SDK version 10.0.17763.0
+SFML
+Installing
+Download Visual Studio from here. In installation process choose "Windows 10 SDK (10.0.17763.0)" at the Individual components tab. If you have Visual Studio installed already you can download SDK from "Visual Studio Installer".
+Download sfml 2.5.0 from here. just extract it and run "SFMLInstall.bat" as administrator (extraction path must contain english letters only).
+
 1. Crazy Digger 
 
 2. Name :
