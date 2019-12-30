@@ -1,26 +1,29 @@
 # CrazyDigger
 A clone of the game "CrazyDigger" 
 
+## Getting Started
 
-# Prerequisites
+### Prerequisites
+
 In order to run the project you need:
-	1.Visual Studio with Windows 10 SDK version 10.0.17763.0
-	2.SFML
-# Installing
-	1.Download Visual Studio from here.
-	In installation process choose "Windows 10 SDK (10.0.17763.0)" at the Individual components tab.
-	If you have Visual Studio installed already you can download SDK from "Visual Studio Installer".
-	2.Download sfml 2.5.0 from here. just extract it and run "SFMLInstall.bat" as administrator (extraction path must contain english letters only).
+1. Visual Studio with Windows 10 SDK version 10.0.17763.0
 
-1. Crazy Digger 
+2. SFML
 
-2. Name :
-   Or Ron 
+### Installing
+
+1. Download Visual Studio from [here](https://visualstudio.microsoft.com/downloads/).
+In installation process choose "Windows 10 SDK (10.0.17763.0)" at the Individual components tab. If you have Visual Studio installed already you can download SDK from "Visual Studio Installer".
+
+2. Download sfml 2.5.0 from [here](https://drive.google.com/open?id=1_D0G_IYPpvv2JnhslLdmXZRFd6zsjqQx).
+just extract it and run "SFMLInstall.bat" as administrator (extraction path must contain english letters only).
+
+
    
   
    
    
-3. Prorgam explanation: 
+### Prorgam explanation: 
 
 	this program implement the CrazyDigger game 
 	In this game there are a few screens defines in files, a player win the game when 
@@ -34,7 +37,7 @@ In order to run the project you need:
 	diamonds and it can get crushed by a diamond falling on it or by a round weihgt falling on him.
 	The Digger can also get eaten by a preditor in case it get to it.
 
-4. Design:
+### Design:
 
 
 
@@ -48,7 +51,7 @@ Main.cpp takes care of two things:
    with all the screens
 
 
-Objects of the game:
+### Objects of the game:
 
 Starting with the basic objects.
 
@@ -100,14 +103,14 @@ Class Controller is actually a screen
 		5. all the graphical objects like Window
 	
 
-5. File Format
+### File Format
 
 	Each file is only one screen
 	Main() is looking for the following name format "boardX.txt"
 	where X is a numebr starting from 1 and next file will be 2 next 3 and so on
 	when main() does not find the next file it assumes no more files or screens.
 
-6. List of files:
+### List of files:
 
 main.cpp  - holds the game of class Bomberman, in endless loop call the game until
 			the user chose in the menu to exit
@@ -135,7 +138,7 @@ board1.txt...board10.txt
 List of graphical used files sound and pictures
 
 
-7. Main data structures:
+### Main data structures:
 		1. m_board of class Board - hold all the info read on one screen from a file 
 		2. m_objectCanFall- vector of objectCanFall of Diamonds and Weights 
 		3. m_MovingObjects - vector of all the moving objects - digger and predators
