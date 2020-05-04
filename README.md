@@ -21,7 +21,7 @@ In installation process choose "Windows 10 SDK (10.0.17763.0)" at the Individual
 2. Download sfml 2.5.0 from [here](https://drive.google.com/open?id=1_D0G_IYPpvv2JnhslLdmXZRFd6zsjqQx).
 just extract it and run "SFMLInstall.bat" as administrator (extraction path must contain english letters only).
 
-![alt text](https://github.com/XOrRonX/Bomberman-Clone/blob/master/%E2%80%8F%E2%80%8Fbomberman_pic.PNG?raw=true)
+![alt text](https://github.com/XOrRonX/CrazyDigger-Clone/blob/master/crazzydigger_pic.PNG?raw=true)
    
 ### Prorgam explanation: 
 
