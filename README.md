@@ -36,11 +36,12 @@ just extract it and run "SFMLInstall.bat" as administrator (extraction path must
 	for a single move the digger cannot go through a wall however it can eat grass, it can eat
 	diamonds and it can get crushed by a diamond falling on it or by a round weihgt falling on him.
 	The Digger can also get eaten by a preditor in case it get to it.
+	
+### Class Diagram - UML:
+
+![alt text](https://github.com/XOrRonX/Bomberman-Clone/blob/master/%E2%80%8F%E2%80%8FUML%20Bomberman.PNG?raw=true)
 
 ### Design:
-
-
-
 
 Main.cpp takes care of two things:
 1. checking if there are more files of screens to read  
